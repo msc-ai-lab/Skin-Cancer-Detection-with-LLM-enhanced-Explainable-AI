@@ -12,25 +12,25 @@ To make AI reasoning transparent and accessible, the system integrates multiple 
 
 ## Key Features
 
-1. Intelligent Skin Cancer Classifier
+1. **Intelligent Skin Cancer Classifier**  
 We chose pre-trained ResNet34 CNN which was then enhanced with LoRA and attention mechanisms for accurate and focused lesion classification.
 
-2. Multi-Layer Explainability Framework
+2. **Multi-Layer Explainability Framework**  
 We combined Grad-CAM (visual attention), SHAP (feature importance), and Influence Functions (case-level interpretability) for mult-perspective insights into AI decission-making process.
 
-3. LLM-Powered Explanations
+3. **LLM-Powered Explanations**  
 LLM pipeline employing GPT-4.1 and meticulous prompt engineering converts complex XAI outputs into structured, human-readable reports for non-AI experts, such as clinicians.
 
-4. Quantitative & Qualitative Validation
+4. **Quantitative & Qualitative Validation**  
 We achieved 100% LLM interpretation accuracy on 3 key metrics and our survey confirmed high user preference for LLM-enriched explanations (p < 0.05).
 
-5. Containerised Deployment
+5. **Containerised Deployment**  
 Full Docker setup for reproducible, cross-platform deployment (Docker deployment instructions further down below).
 
-6. Human-Centric Design
+6. **Human-Centric Design**  
 We built the system to promote transparency, accessibility, and trust in AI-assisted dermatological diagnostics.
 
-## Demonstration
+## Demonstration  
 
 Our container-run application allows for analysis of user-selected samples. Below is an example output for a skin sample with confirmed diagnosis of malignancy: 
 
