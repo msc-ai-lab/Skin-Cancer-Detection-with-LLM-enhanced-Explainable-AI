@@ -1,6 +1,6 @@
-# MSc AI LAB - Thesis Project 🎓🤖
+# MSc AI LAB - LLM-Enhanced Interpretability of XAI for Dermatological Cancer Classification 🎓🤖
 
-Welcome to the **MSc AI LAB Thesis Project** repository! This project was a part of our Master's research in **Artificial Intelligence** at UWE Bristol.
+Welcome to the **Skin Cancer Detection with LLM-enhanced Explainable AI** repository! This project was a part of our Master's research in **Artificial Intelligence** at UWE Bristol.
 
 ## Project Overview
 
@@ -72,7 +72,7 @@ This AI analysis is designed to assist healthcare decisions, not replace profess
 
 ## 📂 Repository Structure
 ```text
-thesis-project/
+Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI/
 │
 ├── backend/Dockerfile          # Python + ML stack
 ├── frontend/Dockerfile         # Node.js build + Nginx
@@ -218,8 +218,8 @@ This project uses a dedicated Python virtual environment to ensure all team memb
 
 1. Clone the Repository
     ```bash
-    git clone https://github.com/msc-ai-lab/thesis-project.git](https://github.com/msc-ai-lab/Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI.git
-    cd https://github.com/msc-ai-lab/Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI.git
+    git clone https://github.com/msc-ai-lab/Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI.git
+    cd Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI
     ```
 
 2. Set Up Virtual Environment (Python 3.9+)
