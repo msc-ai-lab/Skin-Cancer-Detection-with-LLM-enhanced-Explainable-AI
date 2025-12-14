@@ -110,7 +110,7 @@ For the quickest setup we recommend running the application in a Docker containe
 
 ```bash
 # Clone and navigate
-cd thesis-project
+cd Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI
 
 # Build and start all services
 docker compose up --build
@@ -218,29 +218,29 @@ This project uses a dedicated Python virtual environment to ensure all team memb
 
 1. Clone the Repository
     ```bash
-    git clone [https://github.com/msc-ai-lab/thesis-project.git](https://github.com/msc-ai-lab/thesis-project.git)
-    cd thesis-project
+    git clone https://github.com/msc-ai-lab/thesis-project.git](https://github.com/msc-ai-lab/Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI.git
+    cd https://github.com/msc-ai-lab/Skin-Cancer-Detection-with-LLM-enhanced-Explainable-AI.git
     ```
 
 2. Set Up Virtual Environment (Python 3.9+)
-This command creates a local, self-contained environment folder named `thesis-env`.
+This command creates a local, self-contained environment folder named `venv`.
     ```bash
-    python3 -m venv thesis-env
+    python3 -m venv venv
     ```
 
 3. Activate the Environment
 To start using the environment, you need to activate it.
     - On macOS/Linux:
     ```bash
-    source thesis-env/bin/activate
+    source venv/bin/activate
     ```
 
     - On Windows:
     ```bash
-    .\thesis-env\Scripts\activate
+    .\venv\Scripts\activate
     ```
 
-Your terminal prompt will change to show `(thesis-env)` to indicate it's active.
+Your terminal prompt will change to show `(venv)` to indicate it's active.
 
 4. Install Dependencies
 
@@ -264,10 +264,10 @@ This command reads the `requirements.txt` file and installs the exact versions o
 After setting up the environment, follow these steps to run the project notebooks.
 
 1. Link Your Environment to Jupyter
-This important one-time command makes the `thesis-env` selectable as a "kernel" inside Jupyter Lab.
+This important one-time command makes the `venv` selectable as a "kernel" inside Jupyter Lab.
 
 ```bash
-python -m ipykernel install --user --name=thesis-env --display-name="Python (thesis-env)"
+python -m ipykernel install --user --name=venv --display-name="Python (venv)"
 ```
 
 2. Start Jupyter Lab
@@ -319,7 +319,6 @@ git push origin feature/your-feature
 ---
 
 ## 🤝 Contributors
-### LAB:
 - 👤 Lukasz
 - 👤 Avishek
 - 👤 Berkay
